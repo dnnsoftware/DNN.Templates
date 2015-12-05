@@ -30,7 +30,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <InstallInclude Include="**\*.cshtml" />
+      <SourceInclude Include="**\*.cshtml" />
       <SourceInclude Include="**\*.ascx" />
       <SourceInclude Include="**\*.asmx" />
       <SourceInclude Include="**\*.css" />
