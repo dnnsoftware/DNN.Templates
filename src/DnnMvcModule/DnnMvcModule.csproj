@@ -35,24 +35,26 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\bin\</OutputPath>
+    <OutputPath>..\..\bin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetNuke">
-      <HintPath>..\..\..\bin\DotNetNuke.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetNuke.Web.Mvc">
-      <HintPath>..\..\..\bin\DotNetNuke.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\DnnSpaModule\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="DotNetNuke, Version=8.0.0.745, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\DnnSpaModule\packages\DotNetNuke.Core.8.0.0.745\lib\net40\DotNetNuke.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="DotNetNuke.Web.Mvc, Version=8.0.0.745, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\DnnSpaModule\packages\DotNetNuke.Web.Mvc.8.0.0.745\lib\net45\DotNetNuke.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\DnnSpaModule\packages\DotNetNuke.Core.8.0.0.745\lib\net40\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />

@@ -10,6 +10,7 @@ using DotNetNuke.Framework.JavaScriptLibraries;
 
 namespace Dnn.Modules.DnnMvcModule.Controllers
 {
+    [DnnHandleError]
     public class ItemController : DnnController
     {
 
@@ -37,6 +38,7 @@ namespace Dnn.Modules.DnnMvcModule.Controllers
         }
 
         [HttpPost]
+        [DotNetNuke.Web.Mvc.Framework.ActionFilters.ValidateAntiForgeryToken]
         public ActionResult Edit(Item item)
         {
             if (item.ItemId == -1)

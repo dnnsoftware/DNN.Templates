@@ -13,14 +13,17 @@ dnnspamodule.quickSettings = function(root, moduleId) {
 
     var SaveSettings = function () {
         alert("Save Settings");
+        var deferred = $.Deferred();
+        return deferred.promise();
     };
 
     var CancelSettings = function () {
-
+        var deferred = $.Deferred();
+        deferred.resolve();
+        return deferred.promise();
     };
 
     var LoadSettings = function () {
-
     };
 
     var init = function () {
