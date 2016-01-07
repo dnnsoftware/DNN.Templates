@@ -3,13 +3,13 @@ Quick and easy to use Module and Theme (skin) Development templates for DotNetNu
 
 <h2>Installation</h2>
 The templates are available under templates folder. 
-Place the template file under Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\Web\Dnn folder.
+You can directly install the .VSIX file or Place the .ZIP template file under Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\Dnn folder.
 
 In order to create a new module follow these steps:
 
 1. Open visual studio.
 2. Click on File -> New -> Project
-3. Click on Visual C# -> Web -> Dnn.
+3. Click on Visual C# -> Dnn.
 4. Select the template to use, Enter the module name and click Ok.
 5. You are ready to build your own Mvc/Spa module in Dnn.
 
