@@ -2,8 +2,7 @@
 Quick and easy to use Module and Theme (skin) Development templates for DotNetNuke 8.0.0+ and Visual Studio 2015.
 
 <h2>Installation</h2>
-The templates are available under templates folder. 
-You can directly install the .VSIX file or Place the .ZIP template file under Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\Dnn folder.
+You can directly install the .VSIX file by double click on it.
 
 In order to create a new module follow these steps:
 
