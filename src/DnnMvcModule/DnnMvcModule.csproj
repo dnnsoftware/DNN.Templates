@@ -42,16 +42,12 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetNuke, Version=8.0.0.745, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\DnnSpaModule\packages\DotNetNuke.Core.8.0.0.745\lib\net40\DotNetNuke.dll</HintPath>
+    <Reference Include="DotNetNuke, Version=8.0.1.236, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetNuke.Core.8.0.1.236\lib\net40\DotNetNuke.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DotNetNuke.Web.Mvc, Version=8.0.0.745, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\DnnSpaModule\packages\DotNetNuke.Web.Mvc.8.0.0.745\lib\net45\DotNetNuke.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\DnnSpaModule\packages\DotNetNuke.Core.8.0.0.745\lib\net40\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    <Reference Include="DotNetNuke.Web.Mvc, Version=8.0.1.236, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetNuke.Web.Mvc.8.0.1.236\lib\net45\DotNetNuke.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -105,6 +101,7 @@
     <Compile Include="Controllers\ItemController.cs" />
     <Compile Include="Models\Settings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BuildScripts\MSBuild.Community.Tasks.dll" />
